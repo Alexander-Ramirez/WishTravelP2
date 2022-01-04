@@ -11,29 +11,28 @@ City.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    cityName: {
+    city: {
       type: DataTypes.STRING,
       allowNull: false,
     },
     population: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
     },
     landmarks: {
-      type: DataTypes.DATE,
+      type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: DataTypes.NOW,
     },
     entertainment: {
-      type: DataTypes.FLOAT,
+      type: DataTypes.STRING,
       allowNull: false,
     },
-
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
+    excursion_type: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    travel_time: {
+        type: DataTypes.STRING,
+        allowNull: false,
     },
   },
   {
