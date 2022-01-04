@@ -1,0 +1,28 @@
+[
+    {
+        "city": "Queenstown",
+        "population": "15,450",
+        "landmarks": "Southern Alps (Coronet Peak), Kawarau George Suspension Bridge (Bungee jumping), Shotover River, and Dart River (jet-boating)",
+        "entertainment": "Outdoor activities of all types, great food, bar scene at night",
+        "excursion_type": "Hiking, Water sports, Snow sports",
+        "travel_time": "December – February"
+    },
+    {
+        "city": "Auckland",
+        "population": "1,657,000",
+        "landmarks": "The Sky Tower, Mount Eden, Auckland Town Hall ",
+        "entertainment": "Shopping, Food scene, Nature Tours",
+        "excursion_type": "Tourism, Outdoor Activities, Shopping",
+        "travel_time": "March – May and September – November"
+    },
+    {
+        "city": "Paihia",
+        "population": "1,512",
+        "landmarks": "Rainbow Cruise Sunken Ship",
+        "entertainment": "Cruises, scuba diving, fishing, Swimming with Dolphins",
+        "excursion_type": "Water sports and activities",
+        "travel_time": "November – April "
+    }
+
+
+]
