@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "city": "Queenstown",
         "population": 15450,
         "landmarks": "Southern Alps (Coronet Peak), Kawarau George Suspension Bridge (Bungee jumping), Shotover River, and Dart River (jet-boating)",
@@ -8,6 +9,7 @@
         "travel_time": "December – February"
     },
     {
+        "id": 2,
         "city": "Auckland",
         "population": 1657000,
         "landmarks": "The Sky Tower, Mount Eden, Auckland Town Hall ",
@@ -16,6 +18,7 @@
         "travel_time": "March – May and September – November"
     },
     {
+        "id": 3,
         "city": "Paihia",
         "population": 1512,
         "landmarks": "Rainbow Cruise Sunken Ship",
