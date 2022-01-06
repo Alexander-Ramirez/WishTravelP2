@@ -35,22 +35,21 @@ router.post('/', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {
-    const cityData = await City.destroy({
+    const tripData = await Trip.destroy({
       where: {
         id: req.params.id,
-        user_id: req.session.user_id,
       },
     });
 
-    if (!cityData) {
+    if (!tripData) {
       res.status(404).json({ message: 'No city found with this id!' });
       return;
     }
 
-    res.status(200).json(cityData);
+    res.status(200).json(tripData);
   } catch (err) {
-    res.status(500).json(err);
     console.log(err)
+    res.status(500).json(err);
   }
 });
 
