@@ -3,9 +3,10 @@ const { City } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // GET request needed here
-router.get('/cities/:id', async (req, res) => {
+router.get('/:name', async (req, res) => {
   try {
-    const cityData = await City.findByPk(req.params.id);
+    console.log("cities id route")
+    const cityData = await City.findByPk(req.params.name);
     console.log(cityData);
     if (!cityData) {
       res.status(404).json({ message: "Oops we haven't checked out this city!" });

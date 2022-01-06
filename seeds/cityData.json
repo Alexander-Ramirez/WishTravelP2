@@ -26,7 +26,113 @@
         "entertainment": "Cruises, scuba diving, fishing, Swimming with Dolphins",
         "excursion_type": "Water sports and activities",
         "travel_time": "November – April "
+    },
+    {
+        "id": 4,
+        "city": "Cairo",
+        "population": 7734614,
+        "landmarks": "Manial Palace and Museum, Cairo Citadel, Mosque of Muhammad Ali Pasha",
+        "entertainment": "Cairo Tower with views of the entire city and revolving rooftop restaurant, Night clubs and bars",
+        "excursion_type": "Cruises on the Nile River, Coptic Cairo",
+        "travel_time": "March to April and October to November have great weather and minimal tourists. May to June, not ideal as temperatures are quite high. December to February it is a high travel destination."
+    },
+    {
+        "id": 5,
+        "city": "Alexandria",
+        "population": 3811516,
+        "landmarks": "The Roman Amphitheater of Alexandria, Catacombs of Kom el Shoqafa, Pompey’s Pillar",
+        "entertainment": "Nightclubs and Bars, Fine dining restaurants",
+        "excursion_type": "Desert tours, Nile River cruises",
+        "travel_time": "The best time to visit Alexandria is in spring (March-June) and autumn (September-November), since it's at its busiest in summer."
+    },
+    {
+        "id": 6,
+        "city": "",
+        "population": 2443203,
+        "landmarks": "Pyramids of Giza, Great Sphinx, Valley of the Whales",
+        "entertainment": "Nightclubs and Bars, Fine dining restaurants",
+        "excursion_type": "Magic Lake and Waterfall, overnight camping at pyramids, Desert camel rides",
+        "travel_time": "March -May and December-February it is a high tourist destination. June – August sees less crowds with high temperatures that are quite warm. September – November is slow for tourism due to the weather."
+    },
+    {
+        "id": 7,
+        "city": "Reykjavik",
+        "population": 117505,
+        "landmarks": "Hallgrimskirkja(largest church in the country), Cemetery Holavallagardur, Geothermall area krysuvik",
+        "entertainment": "Nightclubs and Bars, Reykjavik Food Walk",
+        "excursion_type": "Blue Lagoon, Reykjavik Volcano, Geothermal beach",
+        "travel_time": "June-August best time if cold weather is a concern-high tourist destination time. October – April is the best time if you are focusing on seeing Northern Lights. Low tourism."
+    },
+    {
+        "id": 8,
+        "city": "Akureyri",
+        "population": 17295,
+        "landmarks": "Sigurhaedir - Memorial house, Saurbaejarkirkja(one of the last remaining turf churches)",
+        "entertainment": "Nightclubs and Bars, Akureyri Food Walk, Festivals",
+        "excursion_type": "Loftheillir Ice cave, Hlíðarfjall Ski Mountain, Dogsledding",
+        "travel_time": "May – August are best times if cold weather is a concern. February – April is the best time if focus is the Northern Lights."
+    },
+    {
+        "id": 9,
+        "city": "Ísafjörður",
+        "population": 2677,
+        "landmarks": "Westfjords Heritage Museum, Seamen’s Monument, Ísafjörðarkirkja Church",
+        "entertainment": "Restaurants and Bars, Festivals, Culture walk",
+        "excursion_type": "Dynjandi waterfall, Whale watching, Svalvogar Circle Sightseeing Tour",
+        "travel_time": "May – August are best times if cold weather is a concern. February – April is the best time if focus is the Northern Lights."
+    },
+    {
+        "id": 10,
+        "city": "Seoul",
+        "population": 9776000,
+        "landmarks": "Gyeongbokgung Palace , N Seoul Tower, Bukhansan National Park",
+        "entertainment": "Lots of night time life like clubs, bars and plenty of food vendors around every corner selling traditional korean street foods and delicacies.",
+        "excursion_type": "Bukhansan National Park offers great hiking areas",
+        "travel_time": "March - May and September - November as those are the months for the best weather and when cost of Travel is at its lowest."
+    },
+    {
+        "id": 11,
+        "city": "Busan",
+        "population": 3429000,
+        "landmarks": "Beomeosa Temple, Haeundae Beach and Taejongdae Park",
+        "entertainment": "Plenty of night markets where you can try all sorts of foods and drinks. Also well known for the Joseon Tongsinsa Festival, which commemorates cultural exchanges between South Korea and Japan.",
+        "excursion_type": "beaches, beautiful hiking trails that lead up to clifftops for amazing breathtaking views.",
+        "travel_time": "May- July and Septemberr are considered the best months to travel to Busan. January is a cold month but very popular due to new years celebrations."
+    },
+    {
+        "id": 12,
+        "city": "Incheon",
+        "population": 2923000,
+        "landmarks": "Incheon Bridge, Incheon Grand Park, Sinpo International Market",
+        "entertainment": "Bars, Casinos, Night Markets",
+        "excursion_type": "Hiking, Beaches, Sight Seeing",
+        "travel_time": "March - May and September - November"
+    },
+    {
+        "id": 13,
+        "city": "Tokyo",
+        "population": 13960000,
+        "landmarks": "Tokyo Tower, Sensoji Temple, and Hachiko Memorial Statue",
+        "entertainment": "Shopping, Food, and Shrine visits",
+        "excursion_type": "Shopping and Tourism",
+        "travel_time": "March - April and September - November"
+    },
+    {
+        "id": 14,
+        "city": "Kyoto",
+        "population": 1475000,
+        "landmarks": "Fushimi Inari Taisha Shrine, Kyoto Imperial Palace, and Nijo Castle",
+        "entertainment": "Temple visits, food, and shopping",
+        "excursion_type": "Shopping and Tourism",
+        "travel_time": "March - May and September - November"
+    },
+    {
+        "id": 15,
+        "city": "Hokkaido",
+        "population": 5281000,
+        "landmarks": "Mt. Moiwa, Mt. Yotei, and Lake Mashu",
+        "entertainment": "Hiking, Winter sports of all types, and Sapporo snow festival",
+        "excursion_type": "Tourism, Snow sports, and Festivals",
+        "travel_time": "June - August and December - February"
     }
-
-
 ]

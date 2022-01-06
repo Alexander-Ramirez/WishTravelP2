@@ -28,21 +28,43 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/city/:id', async (req, res) => {
+// router.get('/city/:id', async (req, res) => {
+//   try {
+//     const cityData = await City.findByPk(req.params.id, {
+//       include: [
+//         {
+//           model: User,
+//           attributes: ['name'],
+//         },
+//       ],
+//     });
+
+//     const city = cityData.get({ plain: true });
+
+//     res.render('city', {
+//       ...city,
+//       logged_in: req.session.logged_in
+//     });
+//   } catch (err) {
+//     res.status(500).json(err);
+//     console.log(err)
+//   }
+// });
+
+router.get('/city/:name', async (req, res) => {
   try {
-    const cityData = await City.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
+    const cityData = await City.findAll({where: {city: req.params.name}
+
     });
 
-    const city = cityData.get({ plain: true });
+    console.log(cityData)
+
+    const city =  cityData.map((city) => city.get({ plain: true }));
+
+    console.log(...city)
 
     res.render('city', {
-      ...city,
+      ...city[0],
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -50,6 +72,8 @@ router.get('/city/:id', async (req, res) => {
     console.log(err)
   }
 });
+
+// '/city/*'
 
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
