@@ -28,28 +28,28 @@ router.get('/', async (req, res) => {
   }
 });
 
-// router.get('/city/:id', async (req, res) => {
-//   try {
-//     const cityData = await City.findByPk(req.params.id, {
-//       include: [
-//         {
-//           model: User,
-//           attributes: ['name'],
-//         },
-//       ],
-//     });
+router.get('/city/id/:id', async (req, res) => {
+  try {
+    const cityData = await City.findByPk(req.params.id, {
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+      ],
+    });
 
-//     const city = cityData.get({ plain: true });
+    const city = cityData.get({ plain: true });
 
-//     res.render('city', {
-//       ...city,
-//       logged_in: req.session.logged_in
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//     console.log(err)
-//   }
-// });
+    res.render('city', {
+      ...city,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+    console.log(err)
+  }
+});
 
 router.get('/city/:name', async (req, res) => {
   try {

@@ -18,9 +18,9 @@
         <a href="/">Your dream trip is waiting!</a>
       </h1>
       <h2>
-        <form id="search" class="example" action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+        <form class="example" id="search">
+          <input type="text" placeholder="Search.." name="search" id="cityName">
+          <button id="searchBtn" type="button"><i class="fa fa-search"></i></button>
         </form>
       </h2>
       <nav>
@@ -46,6 +46,7 @@
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  <script src="/js/search.js"></script>
 </body>
 
 </html>
