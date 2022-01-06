@@ -27,22 +27,22 @@
     </form>
   </div>
 
-  {{#if cities.length}}
+  {{#if trips.length}}
   <div class="col-md-6 city-list">
     <h3>Recent Cities:</h3>
 
-    {{#each cities as |city|}}
+    {{#each trips as |trip|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/city/{{city.id}}">{{city.name}}</a></h4>
+        <h4><a href="/trip/{{trip.name}}">{{trip.name}}</a></h4>
       </div>
       <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{city.id}}">DELETE</button>
+        <button class="btn btn-sm btn-danger" data-id="{{trip.id}}">DELETE</button>
       </div>
     </div>
     {{/each}}
   </div>
   {{/if}}
-</div>
+</div> 
 
 <script src="./js/profile.js"></script>
