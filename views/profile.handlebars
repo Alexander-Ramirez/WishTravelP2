@@ -10,15 +10,15 @@
 
     <form class="form new-city-form">
       <div class="form-group">
-        <label for="city-name">city name:</label>
+        <label for="city-name">City Name:</label>
         <input class="form-input" type="text" id="city-name" name="city-name" />
       </div>
       <div class="form-group">
-        <label for="city-funding">needed funding ($):</label>
+        <label for="city-funding">Average Cost of Trip:</label>
         <input class="form-input" type="number" id="city-funding" name="city-funding" />
       </div>
       <div class="form-group">
-        <label for="city-desc">description:</label>
+        <label for="city-desc">Description:</label>
         <textarea class="form-input" id="city-desc" name="city-desc"></textarea>
       </div>
       <div class="form-group">
@@ -44,30 +44,5 @@
   </div>
   {{/if}}
 </div>
-{{#each cities as |city| }}
-<div class="row mb-4 city">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/city/{{city.id}}">{{city.city}}</a>
-    </h2>
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount city.needed_funding}}</span>
-      needed!
-    </p>
-    <p>Created by {{city.user.name}} on {{format_date city.createdAt}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{city.description}}
-    </p>
-  </div>
-</div>
-{{/each}}
 
-
-<script src="../public/js/profile.js"></script>
+<script src="./js/profile.js"></script>
