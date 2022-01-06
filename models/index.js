@@ -1,5 +1,5 @@
 const User = require('./User');
-// const City = require('./City');
+const Trip = require('./Trip');
 const City = require('./City');
 
 User.hasMany(City, {
@@ -7,7 +7,12 @@ User.hasMany(City, {
   onDelete: 'CASCADE',
 });
 
+User.hasMany(Trip, {
+  foreignKey: 'user_id',
+  onDelete: 'CASCADE',
+});
+
 User.belongsToMany(City, { through: 'User_searched_city' });
 City.belongsToMany(User, { through: 'User_searched_city' });
 
-module.exports = { User, City };
+module.exports = { User, City, Trip };

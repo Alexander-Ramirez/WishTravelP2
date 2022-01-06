@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, City } = require('../models');
+const { User, City, Trip } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/city/:id', async (req, res) => {
+router.get('/city/id/:id', async (req, res) => {
   try {
     const cityData = await City.findByPk(req.params.id, {
       include: [
@@ -51,6 +51,51 @@ router.get('/city/:id', async (req, res) => {
   }
 });
 
+router.get('/city/:name', async (req, res) => {
+  try {
+    const cityData = await City.findAll({where: {city: req.params.name}
+
+    });
+
+    console.log(cityData)
+
+    const city =  cityData.map((city) => city.get({ plain: true }));
+
+    console.log(...city)
+
+    res.render('city', {
+      ...city[0],
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+    console.log(err)
+  }
+});
+
+// '/city/*'
+router.get('/trip/:name', async (req, res) => {
+  try {
+    const tripData = await Trip.findAll({where: {name: req.params.name}
+
+    });
+
+    console.log(tripData)
+
+    const trip =  tripData.map((trip) => trip.get({ plain: true }));
+
+    console.log(...trip)
+
+    res.render('trip', {
+      ...trip[0],
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+    console.log(err)
+  }
+});
+
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
   try {
@@ -59,11 +104,15 @@ router.get('/profile', withAuth, async (req, res) => {
       attributes: { exclude: ['password'] },
       include: [{ model: City }],
     });
-
+console.log(userData)
     const user = userData.get({ plain: true });
 
+    const tripData = await Trip.findAll({where: {user_id: req.session.user_id}});
+// console.log(tripData)
+    const trips = tripData.map((trip) => trip.get({ plain: true }));
+    console.log(trips)
     res.render('profile', {
-      ...user,
+      ...user,trips, 
       logged_in: true
     });
   } catch (err) {
