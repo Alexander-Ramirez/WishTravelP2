@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Cairo",
+    "description": "It is hot and beautiful at the same time.",
+    "needed_funding": 5000
+  },
+  {
+    "name": "Auckland",
+    "description": "The valleys are green. People are amazeballs",
+    "needed_funding": 10000
+  },
+  {
+    "name": "Seoul",
+    "description": "You haen't lived til you have been here.",
+    "needed_funding": 800
+  }
+]

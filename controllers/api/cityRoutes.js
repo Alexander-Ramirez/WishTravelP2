@@ -1,11 +1,12 @@
 const router = require('express').Router();
-const { City } = require('../../models');
+const { City, Trip } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 // GET request needed here
-router.get('/cities/:id', async (req, res) => {
+router.get('/:name', async (req, res) => {
   try {
-    const cityData = await City.findByPk(req.params.id);
+    console.log("cities id route")
+    const cityData = await City.findByPk(req.params.name);
     console.log(cityData);
     if (!cityData) {
       res.status(404).json({ message: "Oops we haven't checked out this city!" });
@@ -20,12 +21,12 @@ router.get('/cities/:id', async (req, res) => {
 
 router.post('/', withAuth, async (req, res) => {
   try {
-    const newCity = await City.create({
+    const newTrip = await Trip.create({
       ...req.body,
       user_id: req.session.user_id,
     });
 
-    res.status(200).json(newCity);
+    res.status(200).json(newTrip);
   } catch (err) {
     res.status(400).json(err);
     console.log(err)

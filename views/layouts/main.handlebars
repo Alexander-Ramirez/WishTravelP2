@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fund My City!</title>
+  <title>Dream Trip!</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -14,13 +14,13 @@
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
-        {{!-- <span role="img" aria-label="money">💸</span> --}}
-        <a href="/">Finding My City!</a>
+        <span role="img" aria-label="world">🌏</span>
+        <a href="/">Your dream trip is waiting!</a>
       </h1>
       <h2>
-        <form id="search" class="example" action="cities/{{city.id}}">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+        <form class="example" id="search">
+          <input type="text" placeholder="Search.." name="search" id="cityName">
+          <button id="searchBtn" type="button"><i class="fa fa-search"></i></button>
         </form>
       </h2>
       <nav>
@@ -46,6 +46,7 @@
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  <script src="/js/search.js"></script>
 </body>
 
 </html>

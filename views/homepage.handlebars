@@ -5,15 +5,15 @@
     <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
       {{{get_emoji}}}
-      <a href="/city/{{city.id}}">{{city.city}}</a>
+      <a href="/city/id/{{city.id}}">{{city.city}}</a>
     </h2>
-    <p>
+    {{!-- <p>
       <span for="img" aria-label="money">💲</span>
       
       <!-- Pass needed_funding value to the helper function -->
       <span class="dollar-amount">{{format_amount city.needed_funding}}</span>
       needed!
-    </p>
+    </p> --}}
     <p>Created by {{city.user.name}} on {{format_date city.createdAt}}</p>
   </div>
   <div class="col-md-7">
