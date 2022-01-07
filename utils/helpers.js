@@ -27,15 +27,15 @@ module.exports = {
     const numrandom = Math.random();
 
     if (numrandom > 0.7) {
-      return `<p>This looks like a nice spot.</p>`
+      return `<p>"This looks like a nice spot." -Thomas</p>`
     } else if (numrandom > 0.5) {
-      return `<p>10/10 spot for a vacation.</p>`
+      return `<p>"10/10 spot for a vacation." -Dane</p>`
     } else if (numrandom > 0.3) {
-      return `<p>My family loved the views here!</p>`
+      return `<p>"My family loved the views here!" -Andrew</p>`
     } else if (numrandom > 0.1) {
-      return `<p>Tried so many new foods here!</p>`
+      return `<p>"Tried so many new foods here!" -Gabe</p>`
     } else {
-      return `<p>Had an amazing time forsure would come back!</p>`
+      return `<p>"Had an amazing time forsure would come back!" -Luis</p>`
     } 
   }
 };

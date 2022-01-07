@@ -62,29 +62,60 @@ form.example::after {
   display: table;
 }
 
-#searchBar {
-  padding-top: 30px;
-  padding-bottom: 250px;
+.headerStyle {
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+#titleLocation {
+  padding-left: 620px;
+}
+
+#appTitle {
+  font-size: 55px;
 }
 
 #quickDescription {
-  padding-top: 200px;
-  padding-left: 135px;
-  font-size: 50px;
-  color: #1b89bc;
+  padding-top: 50px;
+  padding-left: 215px;
+  font-size: 47px;
+  color: white;
+  font-family: cursive;
+}
+
+#searchBar {
+  padding-top: 30px;
+  padding-bottom: 110px;
 }
 
 #userFavs {
-  padding-left: 325px;
+  padding-left: 315px;
   padding-bottom: 25px;
 }
 
 #favoriteLocations {
-  font-size: 45px;
-  color: #1b89bc;
+  font-size: 47px;
+  color: white;
+  font-family: cursive;
 }
 
-.cityname {
+#journalEntry {
+  padding-top: 35px;
+}
+
+#journalTitle {
+  color: white;
+  font-size: 70px
+}
+
+.journalText {
+  color: white;
+  font-size: 35px;
+  font-family: cursive;
+  /* font-weight: bolder; */
+}
+.cityName {
   color: #996633 ;
   font-style: italic;
   font-size: 60px;
@@ -99,3 +130,22 @@ body {
   background: linear-gradient(to bottom, #33ccff, #ff9933);
 }
 
+.homepageText {
+  color: rgb(0, 107, 0);
+  /* font-size: 35px; */
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.profileWelcome{
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  margin-left: 475px;
+}
+
+#myJournalEntry {
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+}
