@@ -24,6 +24,10 @@ The app can help find international travel spots with details such as Excursions
 
 ## Contributing
 Lalo Cifuentes, Matt Reynolds, Stephanie Sanders, Alexander Ramirez
+
+## Links
+GitHub Repository: https://github.com/Alexander-Ramirez/WishTravelP2
+Heroku Deployment: https://desolate-bastion-60870.herokuapp.com/login
   
 ## Questions
 Github profiles for the contributers: 
