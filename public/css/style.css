@@ -62,39 +62,64 @@ form.example::after {
   display: table;
 }
 
-#searchBar {
-  padding-top: 30px;
-  padding-bottom: 250px;
-}
-
 #quickDescription {
-  padding-top: 200px;
+  padding-top: 80px;
   padding-left: 135px;
   font-size: 50px;
-  color: #1b89bc;
+  color: white;
+  font-family: cursive;
+}
+
+#searchBar {
+  padding-top: 30px;
+  padding-bottom: 130px;
 }
 
 #userFavs {
-  padding-left: 325px;
+  padding-left: 225px;
   padding-bottom: 25px;
 }
 
 #favoriteLocations {
-  font-size: 45px;
-  color: #1b89bc;
+  font-size: 55px;
+  color: white;
+  font-family: cursive;
+
 }
 
 #journalEntry {
-  padding-top: 100px;
+  padding-top: 35px;
 }
 
 #journalTitle {
-  color: tomato;
+  color: white;
   font-size: 70px
 }
 
 .journalText {
-  color: tomato;
+  color: white;
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+.cityname {
+  color: #996633 ;
+  font-style: italic;
+  font-size: 60px;
+}
+.cityDetails {
+ color: tomato;
+ font-family: cursive;
+ font-weight: bold;
+}
+
+body {
+  background: linear-gradient(to bottom, #33ccff, #ff9933);
+}
+
+.homepageText {
+  color: white;
   font-size: 35px;
   font-family: cursive;
 }
+
