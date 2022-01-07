@@ -61,3 +61,25 @@ form.example::after {
   clear: both;
   display: table;
 }
+
+#searchBar {
+  padding-top: 30px;
+  padding-bottom: 250px;
+}
+
+#quickDescription {
+  padding-top: 200px;
+  padding-left: 135px;
+  font-size: 50px;
+  color: #1b89bc;
+}
+
+#userFavs {
+  padding-left: 325px;
+  padding-bottom: 25px;
+}
+
+#favoriteLocations {
+  font-size: 45px;
+  color: #1b89bc;
+}
