@@ -83,3 +83,18 @@ form.example::after {
   font-size: 45px;
   color: #1b89bc;
 }
+
+#journalEntry {
+  padding-top: 100px;
+}
+
+#journalTitle {
+  color: tomato;
+  font-size: 70px
+}
+
+.journalText {
+  color: tomato;
+  font-size: 35px;
+  font-family: cursive;
+}
