@@ -1,10 +1,24 @@
 <!-- Loop over each object in the cities array -->
+<div>
+  <h1 class="display-flex justify-content-center" id="quickDescription">
+    Search for your next vacation destination!
+  </h1>
+</div>
+<div id="searchBar">
 <h2>
   <form class="example" id="search">
-    <input type="text" placeholder="Search.." name="search" id="cityName">
+    <input type="text" placeholder="Enter City Name" name="search" id="cityName">
     <button id="searchBtn" type="button"><i class="fa fa-search"></i></button>
   </form>
 </h2>
+</div>
+
+
+<div id="userFavs">
+  <h2 id="favoriteLocations">
+    Our user's Favorite Locations:
+  </h2>
+</div>
 {{#each cities as |city| }}
 <div class="row mb-4 city">
   <div class="col-md-5">
