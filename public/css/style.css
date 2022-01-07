@@ -83,3 +83,19 @@ form.example::after {
   font-size: 45px;
   color: #1b89bc;
 }
+
+.cityname {
+  color: #996633 ;
+  font-style: italic;
+  font-size: 60px;
+}
+.cityDetails {
+ color: tomato;
+ font-family: cursive;
+ font-weight: bold;
+}
+
+body {
+  background: linear-gradient(to bottom, #33ccff, #ff9933);
+}
+
