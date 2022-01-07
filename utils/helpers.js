@@ -12,11 +12,30 @@ module.exports = {
 
     // Return a random emoji
     if (randomNum > 0.7) {
-      return `<span for="img" aria-label="lightbulb">💡</span>`;
-    } else if (randomNum > 0.4) {
-      return `<span for="img" aria-label="laptop">💻</span>`;
-    } else {
-      return `<span for="img" aria-label="gear">⚙️</span>`;
+      return `<span for="img" aria-label="world">🗺️</span>`;
+    } else if (randomNum > 0.5) {
+      return `<span for="img" aria-label="luggage">🧳</span>`;
+    } else if (randomNum > 0.3) {
+      return `<span for="img" aria-label="bus">🚌</span>`;
+    } else if (randomNum > 0.1) {
+      return `<span for="img" aria-label="passport">🛂</span>`;
+    }else {
+      return `<span for="img" aria-label="plane">✈️</span>`;
     }
   },
+  get_reviews: () => {
+    const numrandom = Math.random();
+
+    if (numrandom > 0.7) {
+      return `<p>This looks like a nice spot.</p>`
+    } else if (numrandom > 0.5) {
+      return `<p>10/10 spot for a vacation.</p>`
+    } else if (numrandom > 0.3) {
+      return `<p>My family loved the views here!</p>`
+    } else if (numrandom > 0.1) {
+      return `<p>Tried so many new foods here!</p>`
+    } else {
+      return `<p>Had an amazing time forsure would come back!</p>`
+    } 
+  }
 };
