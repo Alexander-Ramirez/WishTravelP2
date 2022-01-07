@@ -1,4 +1,10 @@
 <!-- Loop over each object in the cities array -->
+<h2>
+  <form class="example" id="search">
+    <input type="text" placeholder="Search.." name="search" id="cityName">
+    <button id="searchBtn" type="button"><i class="fa fa-search"></i></button>
+  </form>
+</h2>
 {{#each cities as |city| }}
 <div class="row mb-4 city">
   <div class="col-md-5">
@@ -7,19 +13,7 @@
       {{{get_emoji}}}
       <a href="/city/id/{{city.id}}">{{city.city}}</a>
     </h2>
-    {{!-- <p>
-      <span for="img" aria-label="money">💲</span>
-      
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount city.needed_funding}}</span>
-      needed!
-    </p> --}}
-    <p>Created by {{city.user.name}} on {{format_date city.createdAt}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{city.description}}
-    </p>
+    <p>{{{get_reviews}}}</p>
   </div>
 </div>
 {{/each}}
