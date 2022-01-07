@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h2 class="profileWelcome">Welcome, {{name}}!</h2>
   </div>
 </div>
 
@@ -29,12 +29,12 @@
 
   {{#if trips.length}}
   <div class="col-md-6 city-list">
-    <h3>Recent Cities:</h3>
+    <h3>My Travel Plans:</h3>
 
     {{#each trips as |trip|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/trip/{{trip.name}}">{{trip.name}}</a></h4>
+        <h4><a href="/trip/{{trip.name}}" id="myJournalEntry">{{trip.name}}</a></h4>
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{trip.id}}">DELETE</button>
