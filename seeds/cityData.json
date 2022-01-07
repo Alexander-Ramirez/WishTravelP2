@@ -7,7 +7,7 @@
         "entertainment": "Outdoor activities of all types, great food, bar scene at night",
         "excursion_type": "Hiking, Water sports, Snow sports",
         "travel_time": "December – February",
-        "image_url": "https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
+        "image1": "Coronet_Peak_Queenstown.jpg"
     },
     {
         "id": 2,
@@ -16,7 +16,10 @@
         "landmarks": "The Sky Tower, Mount Eden, Auckland Town Hall ",
         "entertainment": "Shopping, Food scene, Nature Tours",
         "excursion_type": "Tourism, Outdoor Activities, Shopping",
-        "travel_time": "March – May and September – November"
+        "travel_time": "March – May and September – November",
+        "image1": "Auckland_sky_tower.jpg",
+        "image2": "Auckland_town_hall.jpg",
+        "image3": "Mount_Eden_Auckland.jpg"
     },
     {
         "id": 3,
@@ -25,7 +28,7 @@
         "landmarks": "Rainbow Cruise Sunken Ship",
         "entertainment": "Cruises, scuba diving, fishing, Swimming with Dolphins",
         "excursion_type": "Water sports and activities",
-        "travel_time": "November – April "
+        "travel_time": "November – April ","image1": ""
     },
     {
         "id": 4,
