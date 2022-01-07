@@ -7,7 +7,8 @@
         "entertainment": "Outdoor activities of all types, great food, bar scene at night",
         "excursion_type": "Hiking, Water sports, Snow sports",
         "travel_time": "December – February",
-        "image": ""
+        "image1": "Coronet_Peak_Queenstown.jpg",
+        "image1Alt": "Coronet Peak"
     },
     {
         "id": 2,
@@ -17,9 +18,8 @@
         "entertainment": "Shopping, Food scene, Nature Tours",
         "excursion_type": "Tourism, Outdoor Activities, Shopping",
         "travel_time": "March – May and September – November",
-        "image1": "image1",
-        "image2": "image2",
-        "image3": "image3"
+        "image1": "Auckland_sky_tower.jpg",
+        "image1Alt": "Auckland Sky Tower"
     },
     {
         "id": 3,
@@ -28,7 +28,9 @@
         "landmarks": "Rainbow Cruise Sunken Ship",
         "entertainment": "Cruises, scuba diving, fishing, Swimming with Dolphins",
         "excursion_type": "Water sports and activities",
-        "travel_time": "November – April "
+        "travel_time": "November – April ",
+        "image1": "Paihia_Bay_of_Islands.jpg",
+        "image1Alt": "Paihia Bay of Islands"
     },
     {
         "id": 4,
@@ -37,7 +39,9 @@
         "landmarks": "Manial Palace and Museum, Cairo Citadel, Mosque of Muhammad Ali Pasha",
         "entertainment": "Cairo Tower with views of the entire city and revolving rooftop restaurant, Night clubs and bars",
         "excursion_type": "Cruises on the Nile River, Coptic Cairo",
-        "travel_time": "March to April and October to November have great weather and minimal tourists. May to June, not ideal as temperatures are quite high. December to February it is a high travel destination."
+        "travel_time": "March to April and October to November have great weather and minimal tourists. May to June, not ideal as temperatures are quite high. December to February it is a high travel destination.",
+        "image1": "CairoCitadel.jpg",
+        "image1Alt": "Cairo Citadel"
     },
     {
         "id": 5,
@@ -46,7 +50,9 @@
         "landmarks": "The Roman Amphitheater of Alexandria, Catacombs of Kom el Shoqafa, Pompey’s Pillar",
         "entertainment": "Nightclubs and Bars, Fine dining restaurants",
         "excursion_type": "Desert tours, Nile River cruises",
-        "travel_time": "The best time to visit Alexandria is in spring (March-June) and autumn (September-November), since it's at its busiest in summer."
+        "travel_time": "The best time to visit Alexandria is in spring (March-June) and autumn (September-November), since it's at its busiest in summer.",
+        "image1": "TheRomanAmphitheaterOfAlexandria.jpg",
+        "image1Alt": "The Roman Amphitheater of Alexandria"
     },
     {
         "id": 6,
@@ -55,7 +61,9 @@
         "landmarks": "Pyramids of Giza, Great Sphinx, Valley of the Whales",
         "entertainment": "Nightclubs and Bars, Fine dining restaurants",
         "excursion_type": "Magic Lake and Waterfall, overnight camping at pyramids, Desert camel rides",
-        "travel_time": "March -May and December-February it is a high tourist destination. June – August sees less crowds with high temperatures that are quite warm. September – November is slow for tourism due to the weather."
+        "travel_time": "March -May and December-February it is a high tourist destination. June – August sees less crowds with high temperatures that are quite warm. September – November is slow for tourism due to the weather.",
+        "image1": "PyramidsOfGiza.jpg",
+        "image1Alt": "Pyramids of Giza"
     },
     {
         "id": 7,
@@ -64,7 +72,9 @@
         "landmarks": "Hallgrimskirkja(largest church in the country), Cemetery Holavallagardur, Geothermall area krysuvik",
         "entertainment": "Nightclubs and Bars, Reykjavik Food Walk",
         "excursion_type": "Blue Lagoon, Reykjavik Volcano, Geothermal beach",
-        "travel_time": "June-August best time if cold weather is a concern-high tourist destination time. October – April is the best time if you are focusing on seeing Northern Lights. Low tourism."
+        "travel_time": "June-August best time if cold weather is a concern-high tourist destination time. October – April is the best time if you are focusing on seeing Northern Lights. Low tourism.",
+        "image1": "Hallgrimskirkja_Reykjavik.jpg",
+        "image1Alt": "Hallgrimskirkja Reykjavik"
     },
     {
         "id": 8,
@@ -73,7 +83,9 @@
         "landmarks": "Sigurhaedir - Memorial house, Saurbaejarkirkja(one of the last remaining turf churches)",
         "entertainment": "Nightclubs and Bars, Akureyri Food Walk, Festivals",
         "excursion_type": "Loftheillir Ice cave, Hlíðarfjall Ski Mountain, Dogsledding",
-        "travel_time": "May – August are best times if cold weather is a concern. February – April is the best time if focus is the Northern Lights."
+        "travel_time": "May – August are best times if cold weather is a concern. February – April is the best time if focus is the Northern Lights.",
+        "image1": "NorthernLights.jpg",
+        "image1Alt": "Northern Lights Akureyri"
     },
     {
         "id": 9,
@@ -82,7 +94,9 @@
         "landmarks": "Westfjords Heritage Museum, Seamen’s Monument, Ísafjörðarkirkja Church",
         "entertainment": "Restaurants and Bars, Festivals, Culture walk",
         "excursion_type": "Dynjandi waterfall, Whale watching, Svalvogar Circle Sightseeing Tour",
-        "travel_time": "May – August are best times if cold weather is a concern. February – April is the best time if focus is the Northern Lights."
+        "travel_time": "May – August are best times if cold weather is a concern. February – April is the best time if focus is the Northern Lights.",
+        "image1": "Winter_in_Iceland.jpg",
+        "image1Alt": "Winter in Iceland"
     },
     {
         "id": 10,
@@ -91,7 +105,9 @@
         "landmarks": "Gyeongbokgung Palace , N Seoul Tower, Bukhansan National Park",
         "entertainment": "Lots of night time life like clubs, bars and plenty of food vendors around every corner selling traditional korean street foods and delicacies.",
         "excursion_type": "Bukhansan National Park offers great hiking areas",
-        "travel_time": "March - May and September - November as those are the months for the best weather and when cost of Travel is at its lowest."
+        "travel_time": "March - May and September - November as those are the months for the best weather and when cost of Travel is at its lowest.",
+        "image1": "Gyeongbokgung_Palace_Seoul.jpg",
+        "image1Alt": "Gyeongbokgung Palace Seoul"
     },
     {
         "id": 11,
@@ -100,7 +116,9 @@
         "landmarks": "Beomeosa Temple, Haeundae Beach and Taejongdae Park",
         "entertainment": "Plenty of night markets where you can try all sorts of foods and drinks. Also well known for the Joseon Tongsinsa Festival, which commemorates cultural exchanges between South Korea and Japan.",
         "excursion_type": "beaches, beautiful hiking trails that lead up to clifftops for amazing breathtaking views.",
-        "travel_time": "May- July and Septemberr are considered the best months to travel to Busan. January is a cold month but very popular due to new years celebrations."
+        "travel_time": "May- July and Septemberr are considered the best months to travel to Busan. January is a cold month but very popular due to new years celebrations.",
+        "image1": "HaeundaeBeachBusan.jpg",
+        "image1Alt": "Haeundae Beach Busan"
     },
     {
         "id": 12,
@@ -109,7 +127,9 @@
         "landmarks": "Incheon Bridge, Incheon Grand Park, Sinpo International Market",
         "entertainment": "Bars, Casinos, Night Markets",
         "excursion_type": "Hiking, Beaches, Sight Seeing",
-        "travel_time": "March - May and September - November"
+        "travel_time": "March - May and September - November",
+        "image1": "Incheon_Bridge.jpg",
+        "image1Alt": "Incheon Bridge"
     },
     {
         "id": 13,
@@ -118,7 +138,9 @@
         "landmarks": "Tokyo Tower, Sensoji Temple, and Hachiko Memorial Statue",
         "entertainment": "Shopping, Food, and Shrine visits",
         "excursion_type": "Shopping and Tourism",
-        "travel_time": "March - April and September - November"
+        "travel_time": "March - April and September - November",
+        "image1": "Sensoji_Temple_Japan.jpg",
+        "image1Alt": "Sensoji Temple Japan"
     },
     {
         "id": 14,
@@ -127,7 +149,9 @@
         "landmarks": "Fushimi Inari Taisha Shrine, Kyoto Imperial Palace, and Nijo Castle",
         "entertainment": "Temple visits, food, and shopping",
         "excursion_type": "Shopping and Tourism",
-        "travel_time": "March - May and September - November"
+        "travel_time": "March - May and September - November",
+        "image1": "Fushimi_Inari_Taisha_Shrine_Kyoto.jpg",
+        "image1Alt": "Fushimi Inari Taisha Shrine Kyoto"
     },
     {
         "id": 15,
@@ -136,6 +160,8 @@
         "landmarks": "Mt. Moiwa, Mt. Yotei, and Lake Mashu",
         "entertainment": "Hiking, Winter sports of all types, and Sapporo snow festival",
         "excursion_type": "Tourism, Snow sports, and Festivals",
-        "travel_time": "June - August and December - February"
+        "travel_time": "June - August and December - February",
+        "image1": "Lake_Mashu_Hokkaido.jpg",
+        "image1Alt": "Lake Mashu Hokkaido"
     }
 ]

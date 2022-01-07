@@ -37,6 +37,9 @@ City.init(
     image1: {
       type: DataTypes.STRING,
     },
+    image1Alt: {
+      type: DataTypes.STRING,
+    },
     image2: {
       type: DataTypes.STRING,
     },
