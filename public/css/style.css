@@ -62,26 +62,40 @@ form.example::after {
   display: table;
 }
 
+.headerStyle {
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+#titleLocation {
+  padding-left: 560px;
+}
+
+#appTitle {
+  font-size: 55px;
+}
+
 #quickDescription {
-  padding-top: 80px;
-  padding-left: 135px;
-  font-size: 50px;
+  padding-top: 50px;
+  padding-left: 165px;
+  font-size: 47px;
   color: white;
   font-family: cursive;
 }
 
 #searchBar {
   padding-top: 30px;
-  padding-bottom: 130px;
+  padding-bottom: 110px;
 }
 
 #userFavs {
-  padding-left: 225px;
+  padding-left: 265px;
   padding-bottom: 25px;
 }
 
 #favoriteLocations {
-  font-size: 55px;
+  font-size: 47px;
   color: white;
   font-family: cursive;
 
@@ -100,9 +114,9 @@ form.example::after {
   color: white;
   font-size: 35px;
   font-family: cursive;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
-.cityname {
+.cityName {
   color: #996633 ;
   font-style: italic;
   font-size: 60px;
@@ -118,8 +132,9 @@ body {
 }
 
 .homepageText {
-  color: white;
-  font-size: 35px;
+  color: rgb(0, 107, 0);
+  /* font-size: 35px; */
   font-family: cursive;
+  font-weight: bolder;
 }
 

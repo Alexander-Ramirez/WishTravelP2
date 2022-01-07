@@ -12,18 +12,20 @@
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="world">🌏</span>
-        <a href="/">Wish_Tripadvisor.V1</a>
-      </h1>
+    <header class="display-flex justify-space-between align-center p-2" >
+      <div id="titleLocation">
+        <h1>
+          <span role="img" aria-label="world">🌏</span>
+          <a href="/" class="headerStyle" id="appTitle">Wish_Tripadvisor.V1</a>
+        </h1>
+      </div>
       <nav>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <a href="/profile" class="headerStyle">Profile</a> |
+        <button class="headerStyle no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" class="headerStyle">Login</a>
         {{/if}}
       </nav>
     </header>

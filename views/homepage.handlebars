@@ -22,10 +22,10 @@
 {{#each cities as |city| }}
 <div class="row mb-4 city">
   <div class="col-md-5">
-    <h2 class="homepageText">
+    <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
       {{{get_emoji}}}
-      <a href="/city/id/{{city.id}}">{{city.city}}</a>
+      <a href="/city/id/{{city.id}}" class="homepageText">{{city.city}}</a>
     </h2>
     <p class="homepageText">{{{get_reviews}}}</p>
   </div>
