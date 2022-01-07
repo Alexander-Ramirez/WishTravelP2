@@ -34,6 +34,15 @@ City.init(
         type: DataTypes.STRING,
         allowNull: false,
     },
+    image1: {
+      type: DataTypes.STRING,
+    },
+    image2: {
+      type: DataTypes.STRING,
+    },
+    image3: {
+      type: DataTypes.STRING,
+    }
   },
   {
     sequelize,

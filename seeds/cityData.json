@@ -7,7 +7,7 @@
         "entertainment": "Outdoor activities of all types, great food, bar scene at night",
         "excursion_type": "Hiking, Water sports, Snow sports",
         "travel_time": "December – February",
-        "image_url": "https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
+        "image": ""
     },
     {
         "id": 2,
@@ -16,7 +16,10 @@
         "landmarks": "The Sky Tower, Mount Eden, Auckland Town Hall ",
         "entertainment": "Shopping, Food scene, Nature Tours",
         "excursion_type": "Tourism, Outdoor Activities, Shopping",
-        "travel_time": "March – May and September – November"
+        "travel_time": "March – May and September – November",
+        "image1": "image1",
+        "image2": "image2",
+        "image3": "image3"
     },
     {
         "id": 3,
